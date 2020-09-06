@@ -60,7 +60,7 @@ int main()
 	//For example, in the following enumeration, green will have the value 5 
 
 	enum color { red, green = 5, blue };
-
+	cout << "Enum" << endl;;
 	cout << red  << endl;
 	cout << blue << endl;
 	
