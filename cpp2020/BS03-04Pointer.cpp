@@ -3,25 +3,25 @@ using namespace std;
 
 int main()
 {
-	/*
-	int a = 10;
-	int* ptr;
-	ptr = &a;
-	cout << "ptr point to->\t" << *ptr << endl;
-	*ptr = 20;
-	cout << "a value = " << a << endl;
-	*/
 	
-	
+	//int a = 10;
+	//int* ptr;
+	//ptr = &a;
+	//cout << "ptr point to->\t" << *ptr << endl;
+	//*ptr = 20;
+	//cout << "a value = " << a << endl;
 	
 	// using Reference
+	
 	/*int a = 10, b = 20;
 	int& aRef = a;
 	cout << aRef << endl;
 	aRef = 100;
+	cout << aRef << endl;
 	aRef = b;
 	cout << aRef << endl;
 	*/
+
 
 	// using pointer
 	/*

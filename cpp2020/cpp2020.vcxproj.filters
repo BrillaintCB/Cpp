@@ -93,5 +93,8 @@
     <ClCompile Include="BS03-04Pointer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BS03ARRAY-ex1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

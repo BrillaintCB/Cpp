@@ -33,7 +33,7 @@ int main()
 	int max;
 	int data[10] = {10,23,5,9,22,48,12,10,55,31};
 
-	max = data[10]; //data의 0번 값을 max로 함
+	max = data[0]; //data의 0번 값을 max로 함
 
 
 	cout << "Data" << data[0];
