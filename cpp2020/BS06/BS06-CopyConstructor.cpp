@@ -9,6 +9,7 @@ int main()
 	CounterM cnt5{ cnt4 };
 	CounterM cnt6 = cnt4;
 
-	cnt6.print();
+
+
 	return 0;
 }

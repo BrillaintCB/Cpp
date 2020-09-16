@@ -24,12 +24,17 @@ void f()
 {
 	NamedObj x("Thrid"); // Constructor
 	x.display(); // Deconstructor
+
 }
 
 int main()
 {
+	
+
 	cout << "The number of Object" << NamedObj::nObj() << endl;
+
 	NamedObj a("First");
+	
 	cout << "The number of Object" << NamedObj::nObj() << endl;
 	NamedObj b("Second");
 	cout << "The number of Object" << NamedObj::nObj() << endl;
@@ -37,9 +42,15 @@ int main()
 	f();
 	cout << "================================" << endl;
 	cout << "After f()" << NamedObj::nObj() << endl;
+
 	NamedObj c("Fourth");
 	c.display();
 	cout << "================================" << endl;
 	cout << "The number of Object" << NamedObj::nObj() << endl; //3
+
 	return 0;
+	
 }
+
+
+
