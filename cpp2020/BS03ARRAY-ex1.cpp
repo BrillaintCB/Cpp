@@ -3,11 +3,8 @@
 using namespace std;
 const double PI = 3.14;
 
-
 struct C2dType {
-
 	double x, y;
-
 };
 
 struct CircleType {
@@ -30,14 +27,10 @@ bool chkOverLap(CircleType c1, CircleType c2)
 {
 	double dx = c1.center.x - c2.center.x;
 	double dy = c1.center.y - c2.center.y;
-
 	double dCntr = sqrt(dx * dx + dy * dy);
-
 	return dCntr <= c1.radius + c2.radius;
 
 }
-
-
 
 int main()
 {
