@@ -123,6 +123,30 @@
     <ClCompile Include="BS06-StaticMember.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BS07-01StackClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BS07-02ComplexClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BS07AdvanceCpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BS08\BS08operator_01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BS08\Pencils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BS08\BS08operatorSymbol02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BS08\Complex2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BS10\BS10_Inheritance01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Counter.h">
@@ -141,6 +165,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NamedObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CharStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Complex1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BS08\Pencils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BS08\Complex2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

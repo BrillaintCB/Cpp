@@ -17,11 +17,11 @@ public:
 	}
 
 	//To Solve the Shallow Copy problem
-
+	 
 	VecF(const VecF& fv) : n{ fv.n } {
 		arr = new float[n];
 		memcpy(arr, fv.arr, sizeof(float) * n);
-	
+	 
 	}
 
 	// End

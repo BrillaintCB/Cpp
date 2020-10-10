@@ -13,6 +13,7 @@ int main()
 	//VecFMove v3(v1);
 	VecFMove v3(v1.add(v2));
 	v3.print();
+	v1.print();
 	
 	return 0;
 }

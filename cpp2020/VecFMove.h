@@ -22,9 +22,6 @@ public:
 		memcpy(arr, fv.arr, sizeof(float) * n);
 	}
 	// move constructor
-	
-
-	
 
 	VecFMove(VecFMove&& fv) noexcept : n{ fv.n }, arr{ fv.arr } 	{
 		fv.arr = nullptr; // Hand over memory and set nullptr
